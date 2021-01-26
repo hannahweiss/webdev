@@ -1,0 +1,19 @@
+#giraffe-img {
+    width: 15%;
+    height: 15%;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+    width: 40px;
+    height: 25px;
+}
