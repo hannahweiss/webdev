@@ -93,7 +93,7 @@
             operation = 'add'
             new_number_state = false
         }
-        else {
+        else if (second_number) {
             evaluate();
         }
 
