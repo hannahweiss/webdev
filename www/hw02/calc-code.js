@@ -53,127 +53,6 @@
 
     }
 
-    function one_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 1;
-
-        if (operation_used){
-            second_number = second_number + '1'
-        }
-        else {
-            first_number = first_number + '1'
-        }
-        
-    }
-
-    function two_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 2;
-
-        if (operation_used){
-            second_number = second_number + '2'
-        }
-        else {
-            first_number = first_number + '2'
-        }
-    }
-
-    function three_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 3;
-
-        if (operation_used){
-            second_number = second_number + '3'
-        }
-        else {
-            first_number = first_number + '3'
-        }
-    }
-
-    function four_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 4;
-
-        if (operation_used){
-            second_number = second_number + '4'
-        }
-        else {
-            first_number = first_number + '4'
-        }
-    }
-
-    function five_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 5;
-
-        if (operation_used){
-            second_number = second_number + '5'
-        }
-        else {
-            first_number = first_number + '5'
-        }
-    }
-
-    function six_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 6;
-
-        if (operation_used){
-            second_number = second_number + '6'
-        }
-        else {
-            first_number = first_number + '6'
-        }
-    }
-
-    function seven_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 7;
-
-        if (operation_used){
-            second_number = second_number + '7'
-        }
-        else {
-            first_number = first_number + '7'
-        }
-    }
-
-    function eight_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 8;
-
-        if (operation_used){
-            second_number = second_number + '8'
-        }
-        else {
-            first_number = first_number + '8'
-        }
-    }
-
-    function nine_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 9;
-
-        if (operation_used){
-            second_number = second_number + '9'
-        }
-        else {
-            first_number = first_number + '9'
-        }
-    }
-
-    function zero_clicked() {
-        let dst = document.getElementById('value');
-        dst.innerText = dst.innerText + 0;
-
-        if (operation_used){
-            second_number = second_number + '0'
-        }
-        else {
-            first_number = first_number + '0'
-        }
-    }
-
     function clear_clicked() {
         let dst = document.getElementById('value');
         dst.innerText = '';
@@ -250,36 +129,26 @@
 
     }
 
+    function num_clicked(btn_id){
+        let dst = document.getElementById('value');
+        dst.innerText = dst.innerText + btn_id;
+
+        if (operation_used){
+            second_number = second_number + btn_id
+        }
+        else {
+            first_number = first_number + btn_id
+        }
+    }
+
     function setup_buttons () {
-        let one_btn = document.getElementById('1');
-        one_btn.addEventListener('click', one_clicked, false);
 
-        let two_btn = document.getElementById('2');
-        two_btn.addEventListener('click', two_clicked, false)
+        let num_btns = document.getElementsByClassName('num-btn');
+        num_btns = Array.from(num_btns);
 
-        let three_btn = document.getElementById('3');
-        three_btn.addEventListener('click', three_clicked, false)
-
-        let four_btn = document.getElementById('4');
-        four_btn.addEventListener('click', four_clicked, false)
-
-        let five_btn = document.getElementById('5');
-        five_btn.addEventListener('click', five_clicked, false)
-
-        let six_btn = document.getElementById('6');
-        six_btn.addEventListener('click', six_clicked, false)
-
-        let seven_btn = document.getElementById('7');
-        seven_btn.addEventListener('click', seven_clicked, false)
-
-        let eight_btn = document.getElementById('8');
-        eight_btn.addEventListener('click', eight_clicked, false)
-
-        let nine_btn = document.getElementById('9');
-        nine_btn.addEventListener('click', nine_clicked, false)
-
-        let zero_btn = document.getElementById('0');
-        zero_btn.addEventListener('click', zero_clicked, false)
+        num_btns.forEach(element => {
+            element.addEventListener('click', function() {num_clicked(element.id); }, false);
+        });
 
         let clear_btn = document.getElementById('clear');
         clear_btn.addEventListener('click', clear_clicked, false)
