@@ -67,3 +67,29 @@ ls
 cd /etc
 ls
 vi hosts
+ls
+git pull
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd hannah
+cd home
+ls
+cd hannah
+ls
+cd ../..
+cd /etc
+ls
+cd nginx/
+ls
+cd sites-available/
+ls
+vim hw01.hweisswebdev.com 
+cd ../..
+cd /etc/nginx/
+cd sites-available/
+ls
+vim hw01.hweisswebdev.com 
