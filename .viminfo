@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :q!
-|2,0,1611237073,,"q!"
-:wq
-|2,0,1611237071,,"wq"
+|2,0,1611780945,,"q!"
 :q
-|2,0,1611237042,,"q"
+|2,0,1611777579,,"q"
+:wq
+|2,0,1611776556,,"wq"
 :w
 |2,0,1611181069,,"w"
 :w!
@@ -35,230 +35,265 @@
 # Registers:
 
 # File marks:
-'0  5  33  ~/www/hw01/index.html
-|4,48,5,33,1611237073,"~/www/hw01/index.html"
-'1  10  6  ~/www/main/index.html
-|4,49,10,6,1611237042,"~/www/main/index.html"
-'2  7  29  ~/www/main/index.html
-|4,50,7,29,1611236242,"~/www/main/index.html"
-'3  7  29  ~/www/main/index.html
-|4,51,7,29,1611236242,"~/www/main/index.html"
-'4  1  8  ~/www/main/index.html
-|4,52,1,8,1611235800,"~/www/main/index.html"
-'5  1  8  ~/www/main/index.html
-|4,53,1,8,1611235800,"~/www/main/index.html"
-'6  1  8  ~/www/main/index.html
-|4,54,1,8,1611235800,"~/www/main/index.html"
-'7  1  8  ~/www/main/index.html
-|4,55,1,8,1611235800,"~/www/main/index.html"
-'8  3  0  /etc/hosts
-|4,56,3,0,1611187753,"/etc/hosts"
-'9  41  26  /etc/nginx/sites-enabled/default
-|4,57,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+'0  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,48,2,10,1611783425,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+'1  8  33  ~/www/main/index.html
+|4,49,8,33,1611780945,"~/www/main/index.html"
+'2  9  17  /etc/nginx/sites-available/hello.hweisswebdev.com
+|4,50,9,17,1611779165,"/etc/nginx/sites-available/hello.hweisswebdev.com"
+'3  5  26  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,51,5,26,1611778681,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+'4  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,52,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+'5  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,53,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+'6  3  0  /etc/hosts
+|4,54,3,0,1611776962,"/etc/hosts"
+'7  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,55,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+'8  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,56,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+'9  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,57,12,26,1611776435,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
 
 # Jumplist (newest first):
--'  5  33  ~/www/hw01/index.html
-|4,39,5,33,1611237073,"~/www/hw01/index.html"
--'  1  0  ~/www/hw01/index.html
-|4,39,1,0,1611237050,"~/www/hw01/index.html"
+-'  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,2,10,1611783425,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  8  33  ~/www/main/index.html
+|4,39,8,33,1611780945,"~/www/main/index.html"
 -'  10  6  ~/www/main/index.html
-|4,39,10,6,1611237042,"~/www/main/index.html"
--'  10  6  ~/www/main/index.html
-|4,39,10,6,1611237042,"~/www/main/index.html"
--'  7  5  ~/www/main/index.html
-|4,39,7,5,1611237001,"~/www/main/index.html"
--'  7  5  ~/www/main/index.html
-|4,39,7,5,1611237001,"~/www/main/index.html"
--'  7  29  ~/www/main/index.html
-|4,39,7,29,1611236242,"~/www/main/index.html"
--'  7  29  ~/www/main/index.html
-|4,39,7,29,1611236242,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611236115,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611236115,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611236115,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611236115,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611235800,"~/www/main/index.html"
--'  1  8  ~/www/main/index.html
-|4,39,1,8,1611235800,"~/www/main/index.html"
+|4,39,10,6,1611780935,"~/www/main/index.html"
+-'  9  17  /etc/nginx/sites-available/hello.hweisswebdev.com
+|4,39,9,17,1611779165,"/etc/nginx/sites-available/hello.hweisswebdev.com"
+-'  9  17  /etc/nginx/sites-available/hello.hweisswebdev.com
+|4,39,9,17,1611779165,"/etc/nginx/sites-available/hello.hweisswebdev.com"
+-'  1  0  /etc/nginx/sites-available/hello.hweisswebdev.com
+|4,39,1,0,1611779150,"/etc/nginx/sites-available/hello.hweisswebdev.com"
+-'  1  0  /etc/nginx/sites-available/hello.hweisswebdev.com
+|4,39,1,0,1611779150,"/etc/nginx/sites-available/hello.hweisswebdev.com"
+-'  5  26  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,5,26,1611778681,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  5  26  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,5,26,1611778681,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  5  26  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,5,26,1611778681,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  5  26  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,5,26,1611778681,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,2,10,1611778668,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,2,10,1611778668,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,2,10,1611778668,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  2  10  /etc/nginx/sites-available/hw01.hweisswebdev.com
+|4,39,2,10,1611778668,"/etc/nginx/sites-available/hw01.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,14,0,1611777579,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611777332,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  14  0  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,14,0,1611777317,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
+-'  12  26  /etc/nginx/sites-available/hw02.hweisswebdev.com
+|4,39,12,26,1611777080,"/etc/nginx/sites-available/hw02.hweisswebdev.com"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
+|4,39,3,0,1611776962,"/etc/hosts"
 -'  3  0  /etc/hosts
-|4,39,3,0,1611187753,"/etc/hosts"
--'  41  26  /etc/nginx/sites-enabled/default
-|4,39,41,26,1611187753,"/etc/nginx/sites-enabled/default"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  1  0  /etc/hosts
-|4,39,1,0,1611187004,"/etc/hosts"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  5  26  /etc/nginx/hw01.hweisswebdev.com
-|4,39,5,26,1611186138,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
--'  1  0  /etc/nginx/hw01.hweisswebdev.com
-|4,39,1,0,1611185946,"/etc/nginx/hw01.hweisswebdev.com"
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  3  0  /etc/hosts
+|4,39,3,0,1611776962,"/etc/hosts"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
+-'  7  17  /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+|4,39,7,17,1611776559,"/etc/nginx/sites-enabled/hw02.hweisswebdev.com"
 
 # History of marks within files (newest to oldest):
+
+> ~/www/main/index.html
+	*	1611780942	0
+	"	8	33
+	^	7	30
+	.	7	29
+	+	1	9
+	+	6	39
+	+	7	29
+
+> /etc/nginx/sites-available/hello.hweisswebdev.com
+	*	1611779163	0
+	"	9	17
+	^	9	18
+	.	9	17
+	+	9	17
+
+> /etc/nginx/sites-enabled/hw02.hweisswebdev.com
+	*	1611777336	0
+	"	14	0
+	^	7	18
+	.	7	17
+	+	7	17
+
+> /etc/nginx/sites-available/hw02.hweisswebdev.com
+	*	1611777214	0
+	"	14	0
+
+> /etc/hosts
+	*	1611776891	0
+	"	3	0
+
+> /etc/nginx/sites-available/hw01.hweisswebdev.com
+	*	1611775455	0
+	"	2	10
 
 > ~/www/hw01/index.html
 	*	1611237071	0
@@ -267,19 +302,6 @@
 	.	5	33
 	+	1	0
 	+	5	33
-
-> ~/www/main/index.html
-	*	1611237038	0
-	"	10	6
-	^	7	30
-	.	7	29
-	+	1	9
-	+	6	39
-	+	7	29
-
-> /etc/hosts
-	*	1611187363	0
-	"	3	0
 
 > /etc/nginx/hw01.hweisswebdev.com
 	*	1611186136	0
